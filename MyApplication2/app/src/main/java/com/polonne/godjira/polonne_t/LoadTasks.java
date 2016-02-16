@@ -38,8 +38,20 @@ public class LoadTasks {
     public void startTaskUpdate(){
         new updateTask().execute();
     }
-    private class preLoad extends AsyncTask<Void, Void, Void> {
-        protected Void doInBackground(Void... params) {
+    private class preLoad extends AsyncTask<Void, Void, Boolean> {
+        final ProgressDialog progressDialog = new ProgressDialog(actContext);
+        private Exception m_error = null;
+
+        @Override
+        protected void onPreExecute() {
+            progressDialog.setMessage("Завантаження ...");
+            progressDialog.setCancelable(false);
+            progressDialog
+                    .setProgressStyle(ProgressDialog.STYLE_SPINNER);
+            progressDialog.show();
+        }
+
+        protected Boolean doInBackground(Void... params) {
             PreLoad preLoad = new PreLoad();
             String strPreLoad = preLoad.ReadFromfile("preload.json", actContext);
             try {
@@ -77,12 +89,26 @@ public class LoadTasks {
                     cv.put("additional", schedulesJsonObj.getString("additional"));
                     db.insert("schedules", null, cv);
                 }
-                Toast.makeText(actContext, "Дані оновленні.", Toast.LENGTH_SHORT);
+                return true;
             } catch (JSONException e) {
                 e.printStackTrace();
+                return false;
             }
-            return null;
         }
+        protected void onPostExecute(Boolean aBoolean) {
+            super.onPostExecute(aBoolean);
+            if (aBoolean){
+                progressDialog.hide();
+                RoutesActivity
+                        .showToast("Дані завантажені.");
+                RoutesActivity.updateListViewAdapter();
+            }else{
+                progressDialog.hide();
+                RoutesActivity
+                        .showToast("Оновлення не відбулося.");
+            }
+        }
+
     }
     private class updateTask extends AsyncTask<Void, Void, Boolean> {
         HttpURLConnection urlConnection = null;
@@ -260,6 +286,7 @@ public class LoadTasks {
                 progressDialog.hide();
                 RoutesActivity
                         .showToast("Дані оновленні.");
+                RoutesActivity.updateListViewAdapter();
             }else{
                 progressDialog.hide();
                 RoutesActivity

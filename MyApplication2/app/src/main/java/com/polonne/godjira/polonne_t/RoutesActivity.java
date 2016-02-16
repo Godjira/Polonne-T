@@ -19,11 +19,11 @@ public class RoutesActivity extends AppCompatActivity {
     static private DataBaseHelper dbase;
     static private Context routesContext;
     LoadTasks loadTasks;
-    ArrayList<String> list;
-    ArrayList<Integer> listId;
-    ArrayAdapter<String> adapter;
+    static ArrayList<String> list;
+    static ArrayList<Integer> listId;
+    static ArrayAdapter<String> adapter;
     ListView listView;
-    SQLiteDatabase db;
+    static SQLiteDatabase db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,8 +54,8 @@ public class RoutesActivity extends AppCompatActivity {
         } else {
             Toast.makeText(RoutesActivity.this, "Завантаження інформації, зачекайте...", Toast.LENGTH_LONG).show();
             loadTasks.startTaskPreLoad();
-            adapter.notifyDataSetChanged();
-        }
+            updateListViewAdapter();
+            }
         c.close();
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -82,7 +82,7 @@ public class RoutesActivity extends AppCompatActivity {
             updateBase();
         }
         if(id==R.id.menu_item_map){
-            Intent i = new Intent(this ,MapsActivityy.class);
+            Intent i = new Intent(this ,MapsActivity.class);
             startActivity(i);
         }
 
@@ -93,9 +93,9 @@ public class RoutesActivity extends AppCompatActivity {
     }
     private void updateBase (){
         loadTasks.startTaskUpdate();
-        updateListViewAdapter(false);
+        updateListViewAdapter();
     }
-    public void updateListViewAdapter(boolean preLoad) {
+    public static void updateListViewAdapter() {
         Cursor c = db.query("routes", null, null, null, null, null, null);
         list.clear();
         listId.clear();
@@ -114,9 +114,7 @@ public class RoutesActivity extends AppCompatActivity {
             list.add("Oновіть базу");
         }
         c.close();
-        if (preLoad == false) {
             adapter.notifyDataSetChanged();
-        }
     }
     public static Context getActContext(){
         return routesContext;
