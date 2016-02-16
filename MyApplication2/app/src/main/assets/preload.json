@@ -1,0 +1,2605 @@
+{
+  "response": {
+    "routes": [
+               {
+               "id": "1",
+               "name": "Готель – Горошки",
+               "specification": null,
+               "points": "Готель, Горошки"
+               },
+               {
+               "id": "2",
+               "name": "Автостанція – Залізничний вокзал",
+               "specification": null,
+               "points": "Автостанція, Готель, Центр, Залізничний вокзал"
+               },
+               {
+               "id": "3",
+               "name": "Гамарня – Залізничний вокзал",
+               "specification": null,
+               "points": "Гамарня, Центр, Залізничний вокзал"
+               },
+               {
+               "id": "4",
+               "name": "Мар'яхи – Залізничний вокзал",
+               "specification": null,
+               "points": "Мар'яхи, Центр, Залізничний вокзал"
+               },
+               {
+               "id": "5",
+               "name": "Забілиння – Залізничний вокзал",
+               "specification": "вул. Суворова",
+               "points": "Забілиння, Центр, Залізничний вокзал"
+               },
+               {
+               "id": "6",
+               "name": "Забілиння – Залізничний вокзал",
+               "specification": "вул. Артема, Щорса",
+               "points": "Забілиння, Центр, Залізничний вокзал"
+               },
+               {
+               "id": "7",
+               "name": "Автостанція – Понінка",
+               "specification": null,
+               "points": "Автостанція, Готель, Центр, Мар'яхи, Понінка"
+               },
+               {
+               "id": "8",
+               "name": "Залізничний вокзал – Понінка",
+               "specification": null,
+               "points": "Залізничний вокзал, Центр, Мар'яхи, Понінка"
+               }
+               ],
+    "points": [
+               {
+               "id": "1",
+               "routeId": "1",
+               "name": "Готель"
+               },
+               {
+               "id": "2",
+               "routeId": "1",
+               "name": "Горошки"
+               },
+               {
+               "id": "3",
+               "routeId": "1",
+               "name": "Готель"
+               },
+               {
+               "id": "4",
+               "routeId": "2",
+               "name": "Автостанція"
+               },
+               {
+               "id": "5",
+               "routeId": "2",
+               "name": "Центр"
+               },
+               {
+               "id": "6",
+               "routeId": "2",
+               "name": "Залізничний вокзал"
+               },
+               {
+               "id": "7",
+               "routeId": "2",
+               "name": "Центр"
+               },
+               {
+               "id": "8",
+               "routeId": "3",
+               "name": "Гамарня"
+               },
+               {
+               "id": "9",
+               "routeId": "3",
+               "name": "Центр"
+               },
+               {
+               "id": "10",
+               "routeId": "3",
+               "name": "Залізничний вокзал"
+               },
+               {
+               "id": "11",
+               "routeId": "3",
+               "name": "Центр"
+               },
+               {
+               "id": "12",
+               "routeId": "4",
+               "name": "Мар'яхи"
+               },
+               {
+               "id": "13",
+               "routeId": "4",
+               "name": "Центр"
+               },
+               {
+               "id": "14",
+               "routeId": "4",
+               "name": "Залізничний вокзал"
+               },
+               {
+               "id": "15",
+               "routeId": "4",
+               "name": "Центр"
+               },
+               {
+               "id": "16",
+               "routeId": "5",
+               "name": "Забілиння"
+               },
+               {
+               "id": "17",
+               "routeId": "5",
+               "name": "Центр"
+               },
+               {
+               "id": "18",
+               "routeId": "5",
+               "name": "Залізничний вокзал"
+               },
+               {
+               "id": "19",
+               "routeId": "5",
+               "name": "Центр"
+               },
+               {
+               "id": "20",
+               "routeId": "6",
+               "name": "Забілиння"
+               },
+               {
+               "id": "21",
+               "routeId": "6",
+               "name": "Центр"
+               },
+               {
+               "id": "22",
+               "routeId": "6",
+               "name": "Залізничний вокзал"
+               },
+               {
+               "id": "23",
+               "routeId": "6",
+               "name": "Центр"
+               },
+               {
+               "id": "24",
+               "routeId": "7",
+               "name": "Автостанція"
+               },
+               {
+               "id": "25",
+               "routeId": "7",
+               "name": "Центр"
+               },
+               {
+               "id": "26",
+               "routeId": "7",
+               "name": "Понінка"
+               },
+               {
+               "id": "27",
+               "routeId": "8",
+               "name": "Залізничний вокзал"
+               },
+               {
+               "id": "28",
+               "routeId": "8",
+               "name": "Центр"
+               },
+               {
+               "id": "29",
+               "routeId": "8",
+               "name": "Понінка"
+               }
+               ],
+    "schedules": [
+                  {
+                  "id": "1",
+                  "pointId": "1",
+                  "schedule": "06.55",
+                  "additional": null
+                  },
+                  {
+                  "id": "2",
+                  "pointId": "1",
+                  "schedule": "07.55",
+                  "additional": null
+                  },
+                  {
+                  "id": "3",
+                  "pointId": "1",
+                  "schedule": "09.00",
+                  "additional": "Чт\/Нд"
+                  },
+                  {
+                  "id": "4",
+                  "pointId": "1",
+                  "schedule": "11.00",
+                  "additional": "Чт\/Нд"
+                  },
+                  {
+                  "id": "5",
+                  "pointId": "1",
+                  "schedule": "12.00",
+                  "additional": "Чт\/Нд"
+                  },
+                  {
+                  "id": "6",
+                  "pointId": "1",
+                  "schedule": "15.00",
+                  "additional": null
+                  },
+                  {
+                  "id": "7",
+                  "pointId": "1",
+                  "schedule": "16.00",
+                  "additional": null
+                  },
+                  {
+                  "id": "8",
+                  "pointId": "1",
+                  "schedule": "17.00",
+                  "additional": null
+                  },
+                  {
+                  "id": "9",
+                  "pointId": "2",
+                  "schedule": "07.10",
+                  "additional": null
+                  },
+                  {
+                  "id": "10",
+                  "pointId": "2",
+                  "schedule": "08.10",
+                  "additional": null
+                  },
+                  {
+                  "id": "11",
+                  "pointId": "2",
+                  "schedule": "09.15",
+                  "additional": "Чт\/Нд"
+                  },
+                  {
+                  "id": "12",
+                  "pointId": "2",
+                  "schedule": "11,15",
+                  "additional": "Чт\/Нд"
+                  },
+                  {
+                  "id": "13",
+                  "pointId": "2",
+                  "schedule": "12.15",
+                  "additional": "Чт\/Нд"
+                  },
+                  {
+                  "id": "14",
+                  "pointId": "2",
+                  "schedule": "15.15",
+                  "additional": null
+                  },
+                  {
+                  "id": "15",
+                  "pointId": "2",
+                  "schedule": "16.15",
+                  "additional": null
+                  },
+                  {
+                  "id": "16",
+                  "pointId": "2",
+                  "schedule": "17.15",
+                  "additional": null
+                  },
+                  {
+                  "id": "17",
+                  "pointId": "3",
+                  "schedule": "07.25",
+                  "additional": null
+                  },
+                  {
+                  "id": "18",
+                  "pointId": "3",
+                  "schedule": "08.25",
+                  "additional": null
+                  },
+                  {
+                  "id": "19",
+                  "pointId": "3",
+                  "schedule": "09.30",
+                  "additional": "Чт\/Нд"
+                  },
+                  {
+                  "id": "20",
+                  "pointId": "3",
+                  "schedule": "11.30",
+                  "additional": "Чт\/Нд"
+                  },
+                  {
+                  "id": "21",
+                  "pointId": "3",
+                  "schedule": "12.30",
+                  "additional": "Чт\/Нд"
+                  },
+                  {
+                  "id": "22",
+                  "pointId": "3",
+                  "schedule": "15.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "23",
+                  "pointId": "3",
+                  "schedule": "16.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "24",
+                  "pointId": "3",
+                  "schedule": "17.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "25",
+                  "pointId": "4",
+                  "schedule": "06.05",
+                  "additional": null
+                  },
+                  {
+                  "id": "26",
+                  "pointId": "4",
+                  "schedule": "06.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "27",
+                  "pointId": "4",
+                  "schedule": "07.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "28",
+                  "pointId": "4",
+                  "schedule": "08.10",
+                  "additional": null
+                  },
+                  {
+                  "id": "29",
+                  "pointId": "4",
+                  "schedule": "08.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "30",
+                  "pointId": "4",
+                  "schedule": "09.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "31",
+                  "pointId": "4",
+                  "schedule": "10.10",
+                  "additional": null
+                  },
+                  {
+                  "id": "32",
+                  "pointId": "4",
+                  "schedule": "10.40",
+                  "additional": "Чт\/Нд"
+                  },
+                  {
+                  "id": "33",
+                  "pointId": "4",
+                  "schedule": "11.10",
+                  "additional": null
+                  },
+                  {
+                  "id": "34",
+                  "pointId": "4",
+                  "schedule": "11.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "37",
+                  "pointId": "4",
+                  "schedule": "13.10",
+                  "additional": null
+                  },
+                  {
+                  "id": "38",
+                  "pointId": "4",
+                  "schedule": "13.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "39",
+                  "pointId": "4",
+                  "schedule": "14.10",
+                  "additional": null
+                  },
+                  {
+                  "id": "40",
+                  "pointId": "4",
+                  "schedule": "14.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "41",
+                  "pointId": "4",
+                  "schedule": "15.10",
+                  "additional": null
+                  },
+                  {
+                  "id": "42",
+                  "pointId": "4",
+                  "schedule": "15.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "43",
+                  "pointId": "4",
+                  "schedule": "16.10",
+                  "additional": null
+                  },
+                  {
+                  "id": "44",
+                  "pointId": "4",
+                  "schedule": "16.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "45",
+                  "pointId": "4",
+                  "schedule": "17.10",
+                  "additional": null
+                  },
+                  {
+                  "id": "46",
+                  "pointId": "4",
+                  "schedule": "17.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "47",
+                  "pointId": "4",
+                  "schedule": "18.10",
+                  "additional": null
+                  },
+                  {
+                  "id": "48",
+                  "pointId": "4",
+                  "schedule": "18.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "49",
+                  "pointId": "4",
+                  "schedule": "19.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "50",
+                  "pointId": "4",
+                  "schedule": "20.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "51",
+                  "pointId": "5",
+                  "schedule": "06.20",
+                  "additional": null
+                  },
+                  {
+                  "id": "52",
+                  "pointId": "5",
+                  "schedule": "06.55",
+                  "additional": null
+                  },
+                  {
+                  "id": "53",
+                  "pointId": "5",
+                  "schedule": "07.25",
+                  "additional": null
+                  },
+                  {
+                  "id": "54",
+                  "pointId": "5",
+                  "schedule": "07.55",
+                  "additional": null
+                  },
+                  {
+                  "id": "55",
+                  "pointId": "5",
+                  "schedule": "08.25",
+                  "additional": null
+                  },
+                  {
+                  "id": "56",
+                  "pointId": "5",
+                  "schedule": "08.55",
+                  "additional": null
+                  },
+                  {
+                  "id": "57",
+                  "pointId": "5",
+                  "schedule": "09.25",
+                  "additional": null
+                  },
+                  {
+                  "id": "58",
+                  "pointId": "5",
+                  "schedule": "09.55",
+                  "additional": null
+                  },
+                  {
+                  "id": "59",
+                  "pointId": "5",
+                  "schedule": "10.25",
+                  "additional": null
+                  },
+                  {
+                  "id": "60",
+                  "pointId": "5",
+                  "schedule": "10.55",
+                  "additional": "Чт\/Нд"
+                  },
+                  {
+                  "id": "61",
+                  "pointId": "5",
+                  "schedule": "11.25",
+                  "additional": null
+                  },
+                  {
+                  "id": "62",
+                  "pointId": "5",
+                  "schedule": "11.55",
+                  "additional": null
+                  },
+                  {
+                  "id": "64",
+                  "pointId": "5",
+                  "schedule": "12.55",
+                  "additional": null
+                  },
+                  {
+                  "id": "65",
+                  "pointId": "5",
+                  "schedule": "13.25",
+                  "additional": null
+                  },
+                  {
+                  "id": "66",
+                  "pointId": "5",
+                  "schedule": "13.55",
+                  "additional": null
+                  },
+                  {
+                  "id": "67",
+                  "pointId": "5",
+                  "schedule": "14.25",
+                  "additional": null
+                  },
+                  {
+                  "id": "68",
+                  "pointId": "5",
+                  "schedule": "14.55",
+                  "additional": null
+                  },
+                  {
+                  "id": "69",
+                  "pointId": "5",
+                  "schedule": "15.25",
+                  "additional": null
+                  },
+                  {
+                  "id": "70",
+                  "pointId": "5",
+                  "schedule": "15.55",
+                  "additional": null
+                  },
+                  {
+                  "id": "71",
+                  "pointId": "5",
+                  "schedule": "16.25",
+                  "additional": null
+                  },
+                  {
+                  "id": "72",
+                  "pointId": "5",
+                  "schedule": "16.55",
+                  "additional": null
+                  },
+                  {
+                  "id": "73",
+                  "pointId": "5",
+                  "schedule": "17.25",
+                  "additional": null
+                  },
+                  {
+                  "id": "74",
+                  "pointId": "5",
+                  "schedule": "17.55",
+                  "additional": null
+                  },
+                  {
+                  "id": "75",
+                  "pointId": "5",
+                  "schedule": "18.25",
+                  "additional": null
+                  },
+                  {
+                  "id": "76",
+                  "pointId": "5",
+                  "schedule": "18.55",
+                  "additional": null
+                  },
+                  {
+                  "id": "77",
+                  "pointId": "5",
+                  "schedule": "19.55",
+                  "additional": null
+                  },
+                  {
+                  "id": "78",
+                  "pointId": "5",
+                  "schedule": "20.55",
+                  "additional": null
+                  },
+                  {
+                  "id": "79",
+                  "pointId": "6",
+                  "schedule": "06.35",
+                  "additional": null
+                  },
+                  {
+                  "id": "80",
+                  "pointId": "6",
+                  "schedule": "07.10",
+                  "additional": null
+                  },
+                  {
+                  "id": "81",
+                  "pointId": "6",
+                  "schedule": "07.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "82",
+                  "pointId": "6",
+                  "schedule": "08.10",
+                  "additional": null
+                  },
+                  {
+                  "id": "83",
+                  "pointId": "6",
+                  "schedule": "08.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "84",
+                  "pointId": "6",
+                  "schedule": "09.10",
+                  "additional": null
+                  },
+                  {
+                  "id": "85",
+                  "pointId": "6",
+                  "schedule": "09.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "86",
+                  "pointId": "6",
+                  "schedule": "10.10",
+                  "additional": null
+                  },
+                  {
+                  "id": "87",
+                  "pointId": "6",
+                  "schedule": "10.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "88",
+                  "pointId": "6",
+                  "schedule": "11.10",
+                  "additional": "Чт\/Нд"
+                  },
+                  {
+                  "id": "89",
+                  "pointId": "6",
+                  "schedule": "11.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "90",
+                  "pointId": "6",
+                  "schedule": "12.10",
+                  "additional": null
+                  },
+                  {
+                  "id": "91",
+                  "pointId": "6",
+                  "schedule": "12.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "92",
+                  "pointId": "6",
+                  "schedule": "13.10",
+                  "additional": null
+                  },
+                  {
+                  "id": "93",
+                  "pointId": "6",
+                  "schedule": "13.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "94",
+                  "pointId": "6",
+                  "schedule": "14.10",
+                  "additional": null
+                  },
+                  {
+                  "id": "95",
+                  "pointId": "6",
+                  "schedule": "14.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "96",
+                  "pointId": "6",
+                  "schedule": "15.10",
+                  "additional": null
+                  },
+                  {
+                  "id": "97",
+                  "pointId": "6",
+                  "schedule": "15.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "98",
+                  "pointId": "6",
+                  "schedule": "16.10",
+                  "additional": null
+                  },
+                  {
+                  "id": "99",
+                  "pointId": "6",
+                  "schedule": "16.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "100",
+                  "pointId": "6",
+                  "schedule": "17.10",
+                  "additional": null
+                  },
+                  {
+                  "id": "101",
+                  "pointId": "6",
+                  "schedule": "17.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "102",
+                  "pointId": "6",
+                  "schedule": "18.10",
+                  "additional": null
+                  },
+                  {
+                  "id": "103",
+                  "pointId": "6",
+                  "schedule": "18.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "104",
+                  "pointId": "6",
+                  "schedule": "19.10",
+                  "additional": null
+                  },
+                  {
+                  "id": "105",
+                  "pointId": "6",
+                  "schedule": "20.10",
+                  "additional": null
+                  },
+                  {
+                  "id": "106",
+                  "pointId": "6",
+                  "schedule": "21.15",
+                  "additional": null
+                  },
+                  {
+                  "id": "107",
+                  "pointId": "7",
+                  "schedule": "06.50",
+                  "additional": null
+                  },
+                  {
+                  "id": "108",
+                  "pointId": "7",
+                  "schedule": "07.25",
+                  "additional": null
+                  },
+                  {
+                  "id": "109",
+                  "pointId": "7",
+                  "schedule": "07.55",
+                  "additional": null
+                  },
+                  {
+                  "id": "110",
+                  "pointId": "7",
+                  "schedule": "08.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "111",
+                  "pointId": "7",
+                  "schedule": "08.55",
+                  "additional": null
+                  },
+                  {
+                  "id": "112",
+                  "pointId": "7",
+                  "schedule": "09.25",
+                  "additional": null
+                  },
+                  {
+                  "id": "113",
+                  "pointId": "7",
+                  "schedule": "09.55",
+                  "additional": null
+                  },
+                  {
+                  "id": "114",
+                  "pointId": "7",
+                  "schedule": "10.25",
+                  "additional": null
+                  },
+                  {
+                  "id": "115",
+                  "pointId": "7",
+                  "schedule": "10.55",
+                  "additional": null
+                  },
+                  {
+                  "id": "116",
+                  "pointId": "7",
+                  "schedule": "11.25",
+                  "additional": "Чт\/Нд"
+                  },
+                  {
+                  "id": "119",
+                  "pointId": "7",
+                  "schedule": "12.55",
+                  "additional": null
+                  },
+                  {
+                  "id": "120",
+                  "pointId": "7",
+                  "schedule": "13.25",
+                  "additional": null
+                  },
+                  {
+                  "id": "121",
+                  "pointId": "7",
+                  "schedule": "13.55",
+                  "additional": null
+                  },
+                  {
+                  "id": "122",
+                  "pointId": "7",
+                  "schedule": "14.25",
+                  "additional": null
+                  },
+                  {
+                  "id": "123",
+                  "pointId": "7",
+                  "schedule": "14.55",
+                  "additional": null
+                  },
+                  {
+                  "id": "124",
+                  "pointId": "7",
+                  "schedule": "15.25",
+                  "additional": null
+                  },
+                  {
+                  "id": "125",
+                  "pointId": "7",
+                  "schedule": "15.55",
+                  "additional": null
+                  },
+                  {
+                  "id": "126",
+                  "pointId": "7",
+                  "schedule": "16.25",
+                  "additional": null
+                  },
+                  {
+                  "id": "127",
+                  "pointId": "7",
+                  "schedule": "16.55",
+                  "additional": null
+                  },
+                  {
+                  "id": "128",
+                  "pointId": "7",
+                  "schedule": "17.25",
+                  "additional": null
+                  },
+                  {
+                  "id": "129",
+                  "pointId": "7",
+                  "schedule": "17.55",
+                  "additional": null
+                  },
+                  {
+                  "id": "130",
+                  "pointId": "7",
+                  "schedule": "18.25",
+                  "additional": null
+                  },
+                  {
+                  "id": "131",
+                  "pointId": "7",
+                  "schedule": "18.55",
+                  "additional": null
+                  },
+                  {
+                  "id": "132",
+                  "pointId": "7",
+                  "schedule": "19.25",
+                  "additional": null
+                  },
+                  {
+                  "id": "133",
+                  "pointId": "7",
+                  "schedule": "20.25",
+                  "additional": null
+                  },
+                  {
+                  "id": "134",
+                  "pointId": "7",
+                  "schedule": "21.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "137",
+                  "pointId": "8",
+                  "schedule": "07.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "138",
+                  "pointId": "8",
+                  "schedule": "08.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "139",
+                  "pointId": "8",
+                  "schedule": "09.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "140",
+                  "pointId": "8",
+                  "schedule": "10.30",
+                  "additional": "Чт\/Нд"
+                  },
+                  {
+                  "id": "141",
+                  "pointId": "8",
+                  "schedule": "11.30",
+                  "additional": "Чт\/Нд"
+                  },
+                  {
+                  "id": "142",
+                  "pointId": "8",
+                  "schedule": "12.30",
+                  "additional": "Чт\/Нд"
+                  },
+                  {
+                  "id": "143",
+                  "pointId": "8",
+                  "schedule": "13.30",
+                  "additional": "Чт\/Нд"
+                  },
+                  {
+                  "id": "144",
+                  "pointId": "8",
+                  "schedule": "14.30",
+                  "additional": "Чт\/Нд"
+                  },
+                  {
+                  "id": "145",
+                  "pointId": "8",
+                  "schedule": "15.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "146",
+                  "pointId": "8",
+                  "schedule": "16.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "147",
+                  "pointId": "8",
+                  "schedule": "17.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "148",
+                  "pointId": "8",
+                  "schedule": "18.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "149",
+                  "pointId": "9",
+                  "schedule": "07.45",
+                  "additional": null
+                  },
+                  {
+                  "id": "150",
+                  "pointId": "9",
+                  "schedule": "08.45",
+                  "additional": null
+                  },
+                  {
+                  "id": "151",
+                  "pointId": "9",
+                  "schedule": "09.45",
+                  "additional": null
+                  },
+                  {
+                  "id": "152",
+                  "pointId": "9",
+                  "schedule": "10.45",
+                  "additional": "Чт\/Нд"
+                  },
+                  {
+                  "id": "153",
+                  "pointId": "9",
+                  "schedule": "11.45",
+                  "additional": "Чт\/Нд"
+                  },
+                  {
+                  "id": "154",
+                  "pointId": "9",
+                  "schedule": "12.45",
+                  "additional": "Чт\/Нд"
+                  },
+                  {
+                  "id": "155",
+                  "pointId": "9",
+                  "schedule": "13.45",
+                  "additional": "Чт\/Нд"
+                  },
+                  {
+                  "id": "156",
+                  "pointId": "9",
+                  "schedule": "14.45",
+                  "additional": "Чт\/Нд"
+                  },
+                  {
+                  "id": "157",
+                  "pointId": "9",
+                  "schedule": "15.45",
+                  "additional": null
+                  },
+                  {
+                  "id": "158",
+                  "pointId": "9",
+                  "schedule": "16.45",
+                  "additional": null
+                  },
+                  {
+                  "id": "159",
+                  "pointId": "9",
+                  "schedule": "17.45",
+                  "additional": null
+                  },
+                  {
+                  "id": "160",
+                  "pointId": "9",
+                  "schedule": "18.45",
+                  "additional": null
+                  },
+                  {
+                  "id": "161",
+                  "pointId": "10",
+                  "schedule": "08.00",
+                  "additional": null
+                  },
+                  {
+                  "id": "162",
+                  "pointId": "10",
+                  "schedule": "09.00",
+                  "additional": null
+                  },
+                  {
+                  "id": "163",
+                  "pointId": "10",
+                  "schedule": "10.00",
+                  "additional": null
+                  },
+                  {
+                  "id": "164",
+                  "pointId": "10",
+                  "schedule": "11.00",
+                  "additional": "Чт\/Нд"
+                  },
+                  {
+                  "id": "165",
+                  "pointId": "10",
+                  "schedule": "12.00",
+                  "additional": "Чт\/Нд"
+                  },
+                  {
+                  "id": "166",
+                  "pointId": "10",
+                  "schedule": "13.00",
+                  "additional": "Чт\/Нд"
+                  },
+                  {
+                  "id": "167",
+                  "pointId": "10",
+                  "schedule": "14.00",
+                  "additional": "Чт\/Нд"
+                  },
+                  {
+                  "id": "168",
+                  "pointId": "10",
+                  "schedule": "15.00",
+                  "additional": "Чт\/Нд"
+                  },
+                  {
+                  "id": "169",
+                  "pointId": "10",
+                  "schedule": "16.00",
+                  "additional": null
+                  },
+                  {
+                  "id": "170",
+                  "pointId": "10",
+                  "schedule": "17.00",
+                  "additional": null
+                  },
+                  {
+                  "id": "171",
+                  "pointId": "10",
+                  "schedule": "18.00",
+                  "additional": null
+                  },
+                  {
+                  "id": "173",
+                  "pointId": "11",
+                  "schedule": "08.15",
+                  "additional": null
+                  },
+                  {
+                  "id": "174",
+                  "pointId": "11",
+                  "schedule": "09.15",
+                  "additional": null
+                  },
+                  {
+                  "id": "175",
+                  "pointId": "11",
+                  "schedule": "10.15",
+                  "additional": null
+                  },
+                  {
+                  "id": "176",
+                  "pointId": "11",
+                  "schedule": "11.15",
+                  "additional": "Чт\/Нд"
+                  },
+                  {
+                  "id": "177",
+                  "pointId": "11",
+                  "schedule": "12.15",
+                  "additional": "Чт\/Нд"
+                  },
+                  {
+                  "id": "178",
+                  "pointId": "11",
+                  "schedule": "13.15",
+                  "additional": "Чт\/Нд"
+                  },
+                  {
+                  "id": "179",
+                  "pointId": "11",
+                  "schedule": "14.15",
+                  "additional": "Чт\/Нд"
+                  },
+                  {
+                  "id": "180",
+                  "pointId": "11",
+                  "schedule": "15.15",
+                  "additional": "Чт\/Нд"
+                  },
+                  {
+                  "id": "181",
+                  "pointId": "11",
+                  "schedule": "16.15",
+                  "additional": null
+                  },
+                  {
+                  "id": "182",
+                  "pointId": "11",
+                  "schedule": "17.15",
+                  "additional": null
+                  },
+                  {
+                  "id": "183",
+                  "pointId": "11",
+                  "schedule": "18.15",
+                  "additional": null
+                  },
+                  {
+                  "id": "185",
+                  "pointId": "12",
+                  "schedule": "07.00",
+                  "additional": null
+                  },
+                  {
+                  "id": "186",
+                  "pointId": "12",
+                  "schedule": "08.00",
+                  "additional": null
+                  },
+                  {
+                  "id": "187",
+                  "pointId": "12",
+                  "schedule": "09.00",
+                  "additional": null
+                  },
+                  {
+                  "id": "188",
+                  "pointId": "12",
+                  "schedule": "10.00",
+                  "additional": null
+                  },
+                  {
+                  "id": "189",
+                  "pointId": "12",
+                  "schedule": "11.00",
+                  "additional": null
+                  },
+                  {
+                  "id": "190",
+                  "pointId": "12",
+                  "schedule": "12.00",
+                  "additional": null
+                  },
+                  {
+                  "id": "191",
+                  "pointId": "12",
+                  "schedule": "13.00",
+                  "additional": null
+                  },
+                  {
+                  "id": "192",
+                  "pointId": "12",
+                  "schedule": "14.00",
+                  "additional": null
+                  },
+                  {
+                  "id": "193",
+                  "pointId": "12",
+                  "schedule": "15.00",
+                  "additional": null
+                  },
+                  {
+                  "id": "194",
+                  "pointId": "12",
+                  "schedule": "16.00",
+                  "additional": null
+                  },
+                  {
+                  "id": "195",
+                  "pointId": "12",
+                  "schedule": "17.00",
+                  "additional": null
+                  },
+                  {
+                  "id": "196",
+                  "pointId": "13",
+                  "schedule": "07.15",
+                  "additional": null
+                  },
+                  {
+                  "id": "197",
+                  "pointId": "13",
+                  "schedule": "08.15",
+                  "additional": null
+                  },
+                  {
+                  "id": "198",
+                  "pointId": "13",
+                  "schedule": "09.15",
+                  "additional": null
+                  },
+                  {
+                  "id": "199",
+                  "pointId": "13",
+                  "schedule": "10.15",
+                  "additional": null
+                  },
+                  {
+                  "id": "200",
+                  "pointId": "13",
+                  "schedule": "11.15",
+                  "additional": null
+                  },
+                  {
+                  "id": "201",
+                  "pointId": "13",
+                  "schedule": "12.15",
+                  "additional": null
+                  },
+                  {
+                  "id": "202",
+                  "pointId": "13",
+                  "schedule": "13.15",
+                  "additional": null
+                  },
+                  {
+                  "id": "203",
+                  "pointId": "13",
+                  "schedule": "14.15",
+                  "additional": null
+                  },
+                  {
+                  "id": "204",
+                  "pointId": "13",
+                  "schedule": "15.15",
+                  "additional": null
+                  },
+                  {
+                  "id": "205",
+                  "pointId": "13",
+                  "schedule": "16.15",
+                  "additional": null
+                  },
+                  {
+                  "id": "206",
+                  "pointId": "13",
+                  "schedule": "17.15",
+                  "additional": null
+                  },
+                  {
+                  "id": "207",
+                  "pointId": "14",
+                  "schedule": "07.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "208",
+                  "pointId": "14",
+                  "schedule": "08.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "209",
+                  "pointId": "14",
+                  "schedule": "09.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "210",
+                  "pointId": "14",
+                  "schedule": "10.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "211",
+                  "pointId": "14",
+                  "schedule": "11.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "212",
+                  "pointId": "14",
+                  "schedule": "12.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "213",
+                  "pointId": "14",
+                  "schedule": "13.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "214",
+                  "pointId": "14",
+                  "schedule": "14.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "215",
+                  "pointId": "14",
+                  "schedule": "15.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "216",
+                  "pointId": "14",
+                  "schedule": "16.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "217",
+                  "pointId": "14",
+                  "schedule": "17.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "218",
+                  "pointId": "15",
+                  "schedule": "07.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "219",
+                  "pointId": "15",
+                  "schedule": "08.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "220",
+                  "pointId": "15",
+                  "schedule": "09.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "221",
+                  "pointId": "15",
+                  "schedule": "10.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "222",
+                  "pointId": "15",
+                  "schedule": "11.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "223",
+                  "pointId": "15",
+                  "schedule": "12.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "224",
+                  "pointId": "15",
+                  "schedule": "13.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "225",
+                  "pointId": "15",
+                  "schedule": "14.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "226",
+                  "pointId": "15",
+                  "schedule": "15.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "227",
+                  "pointId": "15",
+                  "schedule": "16.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "228",
+                  "pointId": "15",
+                  "schedule": "17.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "230",
+                  "pointId": "16",
+                  "schedule": "06.25",
+                  "additional": null
+                  },
+                  {
+                  "id": "231",
+                  "pointId": "16",
+                  "schedule": "07.20",
+                  "additional": null
+                  },
+                  {
+                  "id": "232",
+                  "pointId": "16",
+                  "schedule": "08.20",
+                  "additional": null
+                  },
+                  {
+                  "id": "233",
+                  "pointId": "16",
+                  "schedule": "09.20",
+                  "additional": null
+                  },
+                  {
+                  "id": "234",
+                  "pointId": "16",
+                  "schedule": "10.20",
+                  "additional": null
+                  },
+                  {
+                  "id": "235",
+                  "pointId": "16",
+                  "schedule": "11.20",
+                  "additional": "Чт\/Нд"
+                  },
+                  {
+                  "id": "236",
+                  "pointId": "16",
+                  "schedule": "12.20",
+                  "additional": null
+                  },
+                  {
+                  "id": "237",
+                  "pointId": "16",
+                  "schedule": "13.20",
+                  "additional": null
+                  },
+                  {
+                  "id": "238",
+                  "pointId": "16",
+                  "schedule": "14.20",
+                  "additional": null
+                  },
+                  {
+                  "id": "239",
+                  "pointId": "16",
+                  "schedule": "15.20",
+                  "additional": null
+                  },
+                  {
+                  "id": "240",
+                  "pointId": "16",
+                  "schedule": "16.20",
+                  "additional": null
+                  },
+                  {
+                  "id": "241",
+                  "pointId": "16",
+                  "schedule": "17.20",
+                  "additional": null
+                  },
+                  {
+                  "id": "242",
+                  "pointId": "16",
+                  "schedule": "18.20",
+                  "additional": null
+                  },
+                  {
+                  "id": "243",
+                  "pointId": "16",
+                  "schedule": "19.10",
+                  "additional": null
+                  },
+                  {
+                  "id": "244",
+                  "pointId": "17",
+                  "schedule": "06.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "245",
+                  "pointId": "17",
+                  "schedule": "07.35",
+                  "additional": null
+                  },
+                  {
+                  "id": "246",
+                  "pointId": "17",
+                  "schedule": "08.35",
+                  "additional": null
+                  },
+                  {
+                  "id": "247",
+                  "pointId": "17",
+                  "schedule": "09.35",
+                  "additional": null
+                  },
+                  {
+                  "id": "248",
+                  "pointId": "17",
+                  "schedule": "10.35",
+                  "additional": null
+                  },
+                  {
+                  "id": "249",
+                  "pointId": "17",
+                  "schedule": "11.35",
+                  "additional": "Чт\/Нд"
+                  },
+                  {
+                  "id": "250",
+                  "pointId": "17",
+                  "schedule": "12.35",
+                  "additional": null
+                  },
+                  {
+                  "id": "251",
+                  "pointId": "17",
+                  "schedule": "13.35",
+                  "additional": null
+                  },
+                  {
+                  "id": "252",
+                  "pointId": "17",
+                  "schedule": "14.35",
+                  "additional": null
+                  },
+                  {
+                  "id": "253",
+                  "pointId": "17",
+                  "schedule": "15.35",
+                  "additional": null
+                  },
+                  {
+                  "id": "254",
+                  "pointId": "17",
+                  "schedule": "16.35",
+                  "additional": null
+                  },
+                  {
+                  "id": "255",
+                  "pointId": "17",
+                  "schedule": "17.35",
+                  "additional": null
+                  },
+                  {
+                  "id": "256",
+                  "pointId": "17",
+                  "schedule": "18.35",
+                  "additional": null
+                  },
+                  {
+                  "id": "257",
+                  "pointId": "17",
+                  "schedule": "19.35",
+                  "additional": null
+                  },
+                  {
+                  "id": "258",
+                  "pointId": "18",
+                  "schedule": "06.55",
+                  "additional": null
+                  },
+                  {
+                  "id": "259",
+                  "pointId": "18",
+                  "schedule": "07.50",
+                  "additional": null
+                  },
+                  {
+                  "id": "260",
+                  "pointId": "18",
+                  "schedule": "08.50",
+                  "additional": null
+                  },
+                  {
+                  "id": "261",
+                  "pointId": "18",
+                  "schedule": "09.50",
+                  "additional": null
+                  },
+                  {
+                  "id": "262",
+                  "pointId": "18",
+                  "schedule": "10.50",
+                  "additional": null
+                  },
+                  {
+                  "id": "263",
+                  "pointId": "18",
+                  "schedule": "11.50",
+                  "additional": "Чт\/Нд"
+                  },
+                  {
+                  "id": "264",
+                  "pointId": "18",
+                  "schedule": "12.50",
+                  "additional": null
+                  },
+                  {
+                  "id": "265",
+                  "pointId": "18",
+                  "schedule": "13.50",
+                  "additional": null
+                  },
+                  {
+                  "id": "266",
+                  "pointId": "18",
+                  "schedule": "14.50",
+                  "additional": null
+                  },
+                  {
+                  "id": "267",
+                  "pointId": "18",
+                  "schedule": "15.50",
+                  "additional": null
+                  },
+                  {
+                  "id": "268",
+                  "pointId": "18",
+                  "schedule": "16.50",
+                  "additional": null
+                  },
+                  {
+                  "id": "269",
+                  "pointId": "18",
+                  "schedule": "17.50",
+                  "additional": null
+                  },
+                  {
+                  "id": "270",
+                  "pointId": "18",
+                  "schedule": "18.50",
+                  "additional": null
+                  },
+                  {
+                  "id": "271",
+                  "pointId": "18",
+                  "schedule": "19.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "272",
+                  "pointId": "19",
+                  "schedule": "07.10",
+                  "additional": null
+                  },
+                  {
+                  "id": "273",
+                  "pointId": "19",
+                  "schedule": "08.05",
+                  "additional": null
+                  },
+                  {
+                  "id": "274",
+                  "pointId": "19",
+                  "schedule": "09.05",
+                  "additional": null
+                  },
+                  {
+                  "id": "275",
+                  "pointId": "19",
+                  "schedule": "10.05",
+                  "additional": null
+                  },
+                  {
+                  "id": "276",
+                  "pointId": "19",
+                  "schedule": "11.05",
+                  "additional": null
+                  },
+                  {
+                  "id": "277",
+                  "pointId": "19",
+                  "schedule": "12.05",
+                  "additional": "Чт\/Нд"
+                  },
+                  {
+                  "id": "278",
+                  "pointId": "19",
+                  "schedule": "13.05",
+                  "additional": null
+                  },
+                  {
+                  "id": "279",
+                  "pointId": "19",
+                  "schedule": "14.05",
+                  "additional": null
+                  },
+                  {
+                  "id": "280",
+                  "pointId": "19",
+                  "schedule": "15.05",
+                  "additional": null
+                  },
+                  {
+                  "id": "281",
+                  "pointId": "19",
+                  "schedule": "16.05",
+                  "additional": null
+                  },
+                  {
+                  "id": "282",
+                  "pointId": "19",
+                  "schedule": "17.05",
+                  "additional": null
+                  },
+                  {
+                  "id": "283",
+                  "pointId": "19",
+                  "schedule": "18.05",
+                  "additional": null
+                  },
+                  {
+                  "id": "284",
+                  "pointId": "19",
+                  "schedule": "19.10",
+                  "additional": null
+                  },
+                  {
+                  "id": "285",
+                  "pointId": "19",
+                  "schedule": "19.55",
+                  "additional": null
+                  },
+                  {
+                  "id": "286",
+                  "pointId": "20",
+                  "schedule": "06.50",
+                  "additional": null
+                  },
+                  {
+                  "id": "287",
+                  "pointId": "20",
+                  "schedule": "07.50",
+                  "additional": null
+                  },
+                  {
+                  "id": "288",
+                  "pointId": "20",
+                  "schedule": "08.50",
+                  "additional": null
+                  },
+                  {
+                  "id": "289",
+                  "pointId": "20",
+                  "schedule": "09.50",
+                  "additional": null
+                  },
+                  {
+                  "id": "290",
+                  "pointId": "20",
+                  "schedule": "10.50",
+                  "additional": null
+                  },
+                  {
+                  "id": "291",
+                  "pointId": "20",
+                  "schedule": "11.50",
+                  "additional": null
+                  },
+                  {
+                  "id": "292",
+                  "pointId": "20",
+                  "schedule": "12.50",
+                  "additional": null
+                  },
+                  {
+                  "id": "293",
+                  "pointId": "20",
+                  "schedule": "13.50",
+                  "additional": null
+                  },
+                  {
+                  "id": "294",
+                  "pointId": "20",
+                  "schedule": "14.50",
+                  "additional": null
+                  },
+                  {
+                  "id": "295",
+                  "pointId": "20",
+                  "schedule": "15.50",
+                  "additional": null
+                  },
+                  {
+                  "id": "296",
+                  "pointId": "20",
+                  "schedule": "16.50",
+                  "additional": null
+                  },
+                  {
+                  "id": "297",
+                  "pointId": "20",
+                  "schedule": "17.50",
+                  "additional": null
+                  },
+                  {
+                  "id": "298",
+                  "pointId": "20",
+                  "schedule": "19.50",
+                  "additional": null
+                  },
+                  {
+                  "id": "299",
+                  "pointId": "21",
+                  "schedule": "07.05",
+                  "additional": null
+                  },
+                  {
+                  "id": "300",
+                  "pointId": "21",
+                  "schedule": "08.05",
+                  "additional": null
+                  },
+                  {
+                  "id": "301",
+                  "pointId": "21",
+                  "schedule": "09.05",
+                  "additional": null
+                  },
+                  {
+                  "id": "302",
+                  "pointId": "21",
+                  "schedule": "10.05",
+                  "additional": null
+                  },
+                  {
+                  "id": "303",
+                  "pointId": "21",
+                  "schedule": "11.05",
+                  "additional": null
+                  },
+                  {
+                  "id": "304",
+                  "pointId": "21",
+                  "schedule": "12.05",
+                  "additional": null
+                  },
+                  {
+                  "id": "305",
+                  "pointId": "21",
+                  "schedule": "13.05",
+                  "additional": null
+                  },
+                  {
+                  "id": "306",
+                  "pointId": "21",
+                  "schedule": "14.05",
+                  "additional": null
+                  },
+                  {
+                  "id": "307",
+                  "pointId": "21",
+                  "schedule": "15.05",
+                  "additional": null
+                  },
+                  {
+                  "id": "308",
+                  "pointId": "21",
+                  "schedule": "16.05",
+                  "additional": null
+                  },
+                  {
+                  "id": "309",
+                  "pointId": "21",
+                  "schedule": "17.05",
+                  "additional": null
+                  },
+                  {
+                  "id": "310",
+                  "pointId": "21",
+                  "schedule": "18.05",
+                  "additional": null
+                  },
+                  {
+                  "id": "311",
+                  "pointId": "21",
+                  "schedule": "20.25",
+                  "additional": null
+                  },
+                  {
+                  "id": "312",
+                  "pointId": "22",
+                  "schedule": "07.20",
+                  "additional": null
+                  },
+                  {
+                  "id": "313",
+                  "pointId": "22",
+                  "schedule": "08.20",
+                  "additional": null
+                  },
+                  {
+                  "id": "314",
+                  "pointId": "22",
+                  "schedule": "09.20",
+                  "additional": null
+                  },
+                  {
+                  "id": "315",
+                  "pointId": "22",
+                  "schedule": "10.20",
+                  "additional": null
+                  },
+                  {
+                  "id": "316",
+                  "pointId": "22",
+                  "schedule": "11.20",
+                  "additional": null
+                  },
+                  {
+                  "id": "317",
+                  "pointId": "22",
+                  "schedule": "12.20",
+                  "additional": null
+                  },
+                  {
+                  "id": "318",
+                  "pointId": "22",
+                  "schedule": "13.20",
+                  "additional": null
+                  },
+                  {
+                  "id": "319",
+                  "pointId": "22",
+                  "schedule": "14.20",
+                  "additional": null
+                  },
+                  {
+                  "id": "320",
+                  "pointId": "22",
+                  "schedule": "15.20",
+                  "additional": null
+                  },
+                  {
+                  "id": "321",
+                  "pointId": "22",
+                  "schedule": "16.20",
+                  "additional": null
+                  },
+                  {
+                  "id": "322",
+                  "pointId": "22",
+                  "schedule": "17.20",
+                  "additional": null
+                  },
+                  {
+                  "id": "323",
+                  "pointId": "22",
+                  "schedule": "18.20",
+                  "additional": null
+                  },
+                  {
+                  "id": "324",
+                  "pointId": "22",
+                  "schedule": "20.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "325",
+                  "pointId": "23",
+                  "schedule": "07.35",
+                  "additional": null
+                  },
+                  {
+                  "id": "326",
+                  "pointId": "23",
+                  "schedule": "08.35",
+                  "additional": null
+                  },
+                  {
+                  "id": "327",
+                  "pointId": "23",
+                  "schedule": "09.35",
+                  "additional": null
+                  },
+                  {
+                  "id": "328",
+                  "pointId": "23",
+                  "schedule": "10.35",
+                  "additional": null
+                  },
+                  {
+                  "id": "329",
+                  "pointId": "23",
+                  "schedule": "11.35",
+                  "additional": null
+                  },
+                  {
+                  "id": "330",
+                  "pointId": "23",
+                  "schedule": "12.35",
+                  "additional": null
+                  },
+                  {
+                  "id": "331",
+                  "pointId": "23",
+                  "schedule": "13.35",
+                  "additional": null
+                  },
+                  {
+                  "id": "332",
+                  "pointId": "23",
+                  "schedule": "14.35",
+                  "additional": null
+                  },
+                  {
+                  "id": "333",
+                  "pointId": "23",
+                  "schedule": "15.35",
+                  "additional": null
+                  },
+                  {
+                  "id": "334",
+                  "pointId": "23",
+                  "schedule": "16.35",
+                  "additional": null
+                  },
+                  {
+                  "id": "335",
+                  "pointId": "23",
+                  "schedule": "17.35",
+                  "additional": null
+                  },
+                  {
+                  "id": "336",
+                  "pointId": "23",
+                  "schedule": "18.35",
+                  "additional": null
+                  },
+                  {
+                  "id": "337",
+                  "pointId": "23",
+                  "schedule": "20.55",
+                  "additional": null
+                  },
+                  {
+                  "id": "339",
+                  "pointId": "24",
+                  "schedule": "07.55",
+                  "additional": null
+                  },
+                  {
+                  "id": "340",
+                  "pointId": "24",
+                  "schedule": "08.55",
+                  "additional": null
+                  },
+                  {
+                  "id": "341",
+                  "pointId": "24",
+                  "schedule": "09.55",
+                  "additional": null
+                  },
+                  {
+                  "id": "342",
+                  "pointId": "24",
+                  "schedule": "10.55",
+                  "additional": null
+                  },
+                  {
+                  "id": "343",
+                  "pointId": "24",
+                  "schedule": "11.55",
+                  "additional": null
+                  },
+                  {
+                  "id": "344",
+                  "pointId": "24",
+                  "schedule": "12.55",
+                  "additional": null
+                  },
+                  {
+                  "id": "345",
+                  "pointId": "24",
+                  "schedule": "13.55",
+                  "additional": null
+                  },
+                  {
+                  "id": "347",
+                  "pointId": "24",
+                  "schedule": "15.55",
+                  "additional": null
+                  },
+                  {
+                  "id": "348",
+                  "pointId": "24",
+                  "schedule": "16.55",
+                  "additional": null
+                  },
+                  {
+                  "id": "349",
+                  "pointId": "24",
+                  "schedule": "18.15",
+                  "additional": null
+                  },
+                  {
+                  "id": "350",
+                  "pointId": "25",
+                  "schedule": "07.10",
+                  "additional": null
+                  },
+                  {
+                  "id": "351",
+                  "pointId": "25",
+                  "schedule": "08.10",
+                  "additional": null
+                  },
+                  {
+                  "id": "352",
+                  "pointId": "25",
+                  "schedule": "09.10",
+                  "additional": null
+                  },
+                  {
+                  "id": "353",
+                  "pointId": "25",
+                  "schedule": "10.10",
+                  "additional": null
+                  },
+                  {
+                  "id": "354",
+                  "pointId": "25",
+                  "schedule": "11.10",
+                  "additional": null
+                  },
+                  {
+                  "id": "355",
+                  "pointId": "25",
+                  "schedule": "12.10",
+                  "additional": null
+                  },
+                  {
+                  "id": "356",
+                  "pointId": "25",
+                  "schedule": "13.10",
+                  "additional": null
+                  },
+                  {
+                  "id": "357",
+                  "pointId": "25",
+                  "schedule": "14.10",
+                  "additional": null
+                  },
+                  {
+                  "id": "358",
+                  "pointId": "25",
+                  "schedule": "15.10",
+                  "additional": null
+                  },
+                  {
+                  "id": "359",
+                  "pointId": "25",
+                  "schedule": "16.10",
+                  "additional": null
+                  },
+                  {
+                  "id": "360",
+                  "pointId": "25",
+                  "schedule": "17.10",
+                  "additional": null
+                  },
+                  {
+                  "id": "361",
+                  "pointId": "25",
+                  "schedule": "18.25",
+                  "additional": null
+                  },
+                  {
+                  "id": "362",
+                  "pointId": "25",
+                  "schedule": "19.20",
+                  "additional": null
+                  },
+                  {
+                  "id": "363",
+                  "pointId": "26",
+                  "schedule": "07.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "364",
+                  "pointId": "26",
+                  "schedule": "08.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "365",
+                  "pointId": "26",
+                  "schedule": "09.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "366",
+                  "pointId": "26",
+                  "schedule": "10.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "367",
+                  "pointId": "26",
+                  "schedule": "11.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "368",
+                  "pointId": "26",
+                  "schedule": "12.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "369",
+                  "pointId": "26",
+                  "schedule": "13.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "370",
+                  "pointId": "26",
+                  "schedule": "14.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "371",
+                  "pointId": "26",
+                  "schedule": "15.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "372",
+                  "pointId": "26",
+                  "schedule": "16.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "373",
+                  "pointId": "26",
+                  "schedule": "17.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "374",
+                  "pointId": "26",
+                  "schedule": "18.45",
+                  "additional": null
+                  },
+                  {
+                  "id": "375",
+                  "pointId": "26",
+                  "schedule": "19.35",
+                  "additional": null
+                  },
+                  {
+                  "id": "377",
+                  "pointId": "27",
+                  "schedule": "07.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "378",
+                  "pointId": "27",
+                  "schedule": "08.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "379",
+                  "pointId": "27",
+                  "schedule": "09.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "380",
+                  "pointId": "27",
+                  "schedule": "10.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "381",
+                  "pointId": "27",
+                  "schedule": "11.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "382",
+                  "pointId": "27",
+                  "schedule": "12.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "383",
+                  "pointId": "27",
+                  "schedule": "13.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "384",
+                  "pointId": "27",
+                  "schedule": "14.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "385",
+                  "pointId": "27",
+                  "schedule": "15.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "386",
+                  "pointId": "27",
+                  "schedule": "16.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "387",
+                  "pointId": "27",
+                  "schedule": "17.30",
+                  "additional": null
+                  },
+                  {
+                  "id": "388",
+                  "pointId": "28",
+                  "schedule": "06.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "389",
+                  "pointId": "28",
+                  "schedule": "07.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "390",
+                  "pointId": "28",
+                  "schedule": "08.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "391",
+                  "pointId": "28",
+                  "schedule": "09.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "392",
+                  "pointId": "28",
+                  "schedule": "10.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "393",
+                  "pointId": "28",
+                  "schedule": "11.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "394",
+                  "pointId": "28",
+                  "schedule": "12.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "395",
+                  "pointId": "28",
+                  "schedule": "13.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "397",
+                  "pointId": "28",
+                  "schedule": "15.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "398",
+                  "pointId": "28",
+                  "schedule": "16.40",
+                  "additional": null
+                  },
+                  {
+                  "id": "400",
+                  "pointId": "29",
+                  "schedule": "07.00",
+                  "additional": null
+                  },
+                  {
+                  "id": "401",
+                  "pointId": "29",
+                  "schedule": "08.00",
+                  "additional": null
+                  },
+                  {
+                  "id": "402",
+                  "pointId": "29",
+                  "schedule": "09.00",
+                  "additional": null
+                  },
+                  {
+                  "id": "403",
+                  "pointId": "29",
+                  "schedule": "10.00",
+                  "additional": null
+                  },
+                  {
+                  "id": "404",
+                  "pointId": "29",
+                  "schedule": "11.00",
+                  "additional": null
+                  },
+                  {
+                  "id": "405",
+                  "pointId": "29",
+                  "schedule": "12.00",
+                  "additional": null
+                  },
+                  {
+                  "id": "406",
+                  "pointId": "29",
+                  "schedule": "13.00",
+                  "additional": null
+                  },
+                  {
+                  "id": "407",
+                  "pointId": "29",
+                  "schedule": "14.00",
+                  "additional": null
+                  },
+                  {
+                  "id": "409",
+                  "pointId": "29",
+                  "schedule": "16.00",
+                  "additional": null
+                  },
+                  {
+                  "id": "410",
+                  "pointId": "29",
+                  "schedule": "17.00",
+                  "additional": null
+                  }
+                  ],
+    "mapPoints": [
+                  {
+                  "id": "1",
+                  "title": "Центр",
+                  "latitude": "50.121083",
+                  "longitude": "27.506188"
+                  },
+                  {
+                  "id": "2",
+                  "title": "Автостанція",
+                  "latitude": "50.103878",
+                  "longitude": "27.524023"
+                  },
+                  {
+                  "id": "3",
+                  "title": "Понінка",
+                  "latitude": "50.183171",
+                  "longitude": "27.538888"
+                  },
+                  {
+                  "id": "4",
+                  "title": "Залізничний вокзал",
+                  "latitude": "50.13897",
+                  "longitude": "27.488639"
+                  },
+                  {
+                  "id": "5",
+                  "title": "Готель",
+                  "latitude": "50.11801",
+                  "longitude": "27.512788"
+                  },
+                  {
+                  "id": "6",
+                  "title": "Мар'яхи",
+                  "latitude": "50.169508",
+                  "longitude": "27.530282"
+                  }
+                  ]
+  }
+}

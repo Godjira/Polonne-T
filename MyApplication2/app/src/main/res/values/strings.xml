@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Polonne-T</string>
+    <string name="upload_base">Оновити дані</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
