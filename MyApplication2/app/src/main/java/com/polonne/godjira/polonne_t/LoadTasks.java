@@ -285,7 +285,7 @@ public class LoadTasks {
             if (aBoolean){
                 progressDialog.hide();
                 RoutesActivity
-                        .showToast("Дані оновленні.");
+                        .showToast("Дані завантажені.");
                 RoutesActivity.updateListViewAdapter();
             }else{
                 progressDialog.hide();
